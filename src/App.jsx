@@ -1,17 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ChatIntro from "./pages/ChatIntro";
-import Question from "./pages/Question";
-import Celebration from "./pages/Celebration";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<ChatIntro />} />
         <Route path="/question" element={<Question />} />
         <Route path="/celebration" element={<Celebration />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
