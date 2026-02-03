@@ -1,4 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
+import ChatIntro from "./pages/ChatIntro";
+import Question from "./pages/Question";
+import Celebration from "./pages/Celebration";
 
 function App() {
   return (
